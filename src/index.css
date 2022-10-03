@@ -38,17 +38,18 @@ body{
     color: var(--color-white);
     line-height: 1.7;
 }
-.conatainer {
+.container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
+
 
 h1,
 h2,
 h3,
 h4,
 h5 {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 h1{
@@ -104,7 +105,7 @@ img{
 
 /* Media Screen  */
 @media screen and (max-width: 1024px) {
-    .conatainer{
+    .container{
         width: var(--container-width-md);
     }
     section{
@@ -114,7 +115,7 @@ img{
 
 /* Small Media Screen  */
 @media screen and (max-width: 600px) {
-    .conatainer{
+    .container{
         width: var(--container-width-sm);
     }
     section{

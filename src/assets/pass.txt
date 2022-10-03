@@ -1,0 +1,23 @@
+
+{
+    "firstname" : "Ahmed",
+    "lastname" : "Elsadek",
+    "password" : "300Ahmed"
+}
+
+
+{
+    "firstname" : "Ahmed",
+    "lastname" : "Abdelbaqi",
+    "password" : "Ahmed20"
+}
+
+{
+    "firstname" : "Ahmed",
+    "lastname" : "Abdelbaqi",
+    "password" : "Ahmed20"
+}
+
+create database shopping_test;
+create user shopping_user_test with password 123;
+grant all privileges on database shopping_test to shopping_user_test;

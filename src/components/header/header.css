@@ -4,5 +4,13 @@
     justify-items: center;
 }
 .cta > .btn {
-    margin:0 1rem;
+    margin:1rem 1rem;
+}
+.social__icons > a{
+    padding: .5rem;
+}
+.social__icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

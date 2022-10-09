@@ -2,6 +2,23 @@
     display: grid;
     justify-content: center;
     justify-items: center;
+    grid-template-columns: auto auto auto;
+}
+.header__container > h5 , h1 , .cta , .me__image{
+    grid-column: 2;
+}
+.Scroll_down {
+    grid-column: 3;
+    grid-row: 1/6;
+    writing-mode: vertical-lr;
+    align-self: flex-end;
+    padding-left: 2rem;
+}
+.me__image > img {
+    background-color: var(--color-primary);
+    width: 22rem;
+    height: 30rem;
+    border-radius: 12rem 12rem 0 0;
 }
 .cta > .btn {
     margin:1rem 1rem;
@@ -12,5 +29,24 @@
 .social__icons {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    grid-row: 1/6;
+    align-self: flex-end;
+    justify-self: start;
+}
+.social__icons::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
+    margin-left: .9rem;
+}
+
+@media screen and (max-width : 600px ) {
+    .Scroll_down{
+        display: none;
+    }
+    .social__icons{
+        display: none;
+    }
+
 }
